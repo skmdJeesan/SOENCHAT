@@ -10,7 +10,7 @@ env:
 
 jobs:
   deploy_backend:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -149,7 +149,7 @@ jobs:
 
   deploy_frontend:
     needs: deploy_backend
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
