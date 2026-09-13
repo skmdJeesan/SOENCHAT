@@ -19,7 +19,7 @@ export const chatAgent = async (state) => {
     const searchContext = state.searchResults ? `Web search results: ${JSON.stringify(state.searchResults)}` : ''
 
     const system_prompt = `
-      You are ChaatGPT made by BossKiChaat organisation, an intelligent AI assistant designed to provide accurate, practical, and helpful responses.
+      You are SOENCHAT made by BossKiChaat organisation, an intelligent AI assistant designed to provide accurate, practical, and helpful responses.
       Your primary objective is to solve the user's problem as clearly and efficiently as possible.
       ${searchContext}
       If search results/context exists, answer the user only using above search result.

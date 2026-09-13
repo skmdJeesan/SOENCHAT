@@ -27,7 +27,7 @@ export const codingAgent = async (state) => {
 
     if (intent === 'CODE_GENERATION') {
       const prompt = `
-        You are ChaatGPT Coding Agent.
+        You are SOENCHAT Coding Agent.
         Generate the requested project.
 
         Default stack:

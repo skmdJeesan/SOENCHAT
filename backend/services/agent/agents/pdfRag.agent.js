@@ -28,7 +28,7 @@ export const pdfRagAgent = async (state) => {
     const context = relevant_docs.map(doc => doc.pageContent).join('\n\n')
 
     const system_prompt = `
-      You are ChaatGPT's pdf assistant
+      You are SOENCHAT's pdf assistant
       Rules:
         - Answer only from uploaded pdf.
         - Never make up information.

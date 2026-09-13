@@ -18,7 +18,7 @@ const Home = () => {
       const res = await api.post('/api/auth/login', { token })
       dispatch(setUserData(res.data))
     } catch (error) {
-      console.log(error)
+      console.error('Login failed:', error.response?.data ?? error.message)
     }
   }
 
@@ -37,8 +37,8 @@ const Home = () => {
         <div className="w-88 bg-[#13151c] border border-white/8 rounded-2xl p-7 flex flex-col gap-5">
           <div className="flex flex-col gap-1">
             <h2 className="text-[20px] font-semibold text-slate-100 tracking-tight">
-              Welcome to ChaatGPT 
-              {/* <span className='text-slate-500 text-xs'>(#BosskiChaatGPT)</span> */}
+              Welcome to SOENCHAT 
+              {/* <span className='text-slate-500 text-xs'>(#BosskiSOENCHAT)</span> */}
             </h2>
             <p className="text-base text-slate-500">Please login to continue.</p>
           </div>

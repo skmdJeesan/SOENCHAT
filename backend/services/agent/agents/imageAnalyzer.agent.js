@@ -13,7 +13,7 @@ export const imageAnalyzerAgent = async (state) => {
     const image_base64 = image_buffer.toString('base64')
 
     const system_prompt = `
-      You are ChaatGPT's image analyzer agent
+      You are SOENCHAT's image analyzer agent
       Rules:
         - Analyze only the uploaded image.
         - Answer the user's question accurately.

@@ -1,4 +1,4 @@
-name: ChaatGPT deployment
+name: SOENCHAT deployment
 on:
   push:
     branches:

@@ -26,7 +26,7 @@ const MessageList = () => {
       {(messages.length === 0 || !selectedConversation)
         ? <div className="h-full flex flex-col items-center justify-center gap-4 text-center">
           <div className="flex flex-col gap-1.5">
-            <h1 className="text-[30px] font-semibold text-slate-200 tracking-tight">ChaatGPT
+            <h1 className="text-[30px] font-semibold text-slate-200 tracking-tight">SOENCHAT
             </h1>
             <p className="text-base text-slate-400 tracking-tight">How can I help you today?</p>
             <p className="text-sm text-slate-400 leading-relaxed max-w-75">Ask me anything - code, ideas, explanations or just a quick question.</p>

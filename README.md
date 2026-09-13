@@ -1,4 +1,4 @@
-# [ChaatGPT](https://d2sxx6hi1j69nt.cloudfront.net/)
+# [SOENCHAT](https://d2sxx6hi1j69nt.cloudfront.net/)
 
 A microservice-based AI platform inspired by ChatGPT and DeepSeek — conversational AI, intelligent agent routing, web search, document generation, image generation, and subscription billing, deployed on AWS.
 
@@ -10,7 +10,7 @@ A microservice-based AI platform inspired by ChatGPT and DeepSeek — conversati
 
 ## Overview
 
-[ChaatGPT](https://d2sxx6hi1j69nt.cloudfront.net/) is split into independent backend services rather than a single monolith, so each capability — auth, chat, agent routing, billing — can be developed, scaled, and deployed on its own.
+[SOENCHAT](https://d2sxx6hi1j69nt.cloudfront.net/) is split into independent backend services rather than a single monolith, so each capability — auth, chat, agent routing, billing — can be developed, scaled, and deployed on its own.
 
 **Capabilities**
 - Conversational AI with intelligent agent routing

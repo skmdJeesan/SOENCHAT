@@ -142,7 +142,7 @@ const Sidebar = () => {
           {/* 1. */}
           <div className="flex items-center justify-center gap-2.5 px-2 border-b border-white/8 h-14">
             <span className="ml-2 text-[20px] font-semibold text-slate-100 tracking-tight flex-1">
-              ChaatGPT
+              SOENCHAT
               {/* <span className="text-[10px] ml-2 font-medium tracking-wide border border-white/40 px-2 py-0.5 rounded-full">free</span> */}
             </span>
 

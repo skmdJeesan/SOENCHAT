@@ -22,7 +22,7 @@ const BillingDrawer = ({ open, close }) => {
         key: import.meta.env.VITE_RAZORPAY_KEY_ID,
         amount: data?.order?.amount,
         currency: data?.order?.currency,
-        name: 'ChaatGPT',
+        name: 'SOENCHAT',
         descriptiom: `${data?.plan?.name} Plan`,
         order_id: data?.order?.id,
         handler: async (response) => {
